@@ -1,0 +1,25 @@
+osc@osc:~$ mkdir eman
+osc@osc:~$ cd eman
+osc@osc:~/eman$ touch one.txt two.txt three.txt four.txt
+osc@osc:~/eman$ mkdir BAD
+osc@osc:~/eman$ cd BAD
+osc@osc:~/eman/BAD$ touch bad.txt
+osc@osc:~/eman/BAD$ cd ..
+osc@osc:~/eman$ cd ..
+osc@osc:~$ cd eman
+osc@osc:~/eman$ mv one.txt /home/osc/Downloads/
+osc@osc:~/eman$ cd ..
+osc@osc:~$ cd Downloads
+osc@osc:~/Downloads$ cp one.txt copy.txt
+osc@osc:~/Downloads$ cd ..
+osc@osc:~$ cd eman
+osc@osc:~/eman$ nano two.txt 
+osc@osc:~/eman$ cat two.txt 
+eman
+osc@osc:~/eman$ nano three.txt
+osc@osc:~/eman$ cat three.txt
+1-hello osc 2-hello osc 3-hello osc 4-hello osc 5-hello osc 6-hello osc 7-hello osc 8-hello osc 
+osc@osc:~/eman$ mv three.txt hello.txt
+osc@osc:~/eman$ rm four.txt
+osc@osc:~/eman$ rm -r BAD
+osc@osc:~/eman$ 
